@@ -1,0 +1,158 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+
+		<meta charset="utf-8">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+
+		<!-- personalized css -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+		<!-- Javascript -->
+		<!-- JQuery first then popper the bootstrap js -->
+		<!-- JQuery -->
+		<script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+
+		<!-- Popper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+		<title>Guitar Shred</title>
+
+</head>
+<body>
+	<div class="row menu">
+	<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+			<!-- brand -->
+			<a class="navbar-brand" href="#">Guitar Shred</a>
+			<!-- end of brand -->
+			<!-- burger -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- end of burger -->
+			<!-- Nav items -->
+			<div class="collapse navbar-collapse" id="navbar-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Shop</a>
+						<div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item active" href="#">Guitar</a>
+							<a class="dropdown-item" href="#">Guitar Accecories</a>
+							<a class="dropdown-item" href="#">Pedals</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#">Courses</a>
+					</li>
+				</ul>
+			</div>
+			<!-- end of nav items -->
+		</nav>
+	<!-- end of navbar -->
+	
+	</div>
+	
+	<div class="row content">
+			<!-- Carousel -->
+		<div id="sampleCarousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="./assets/image/Guitar1.jpg">
+					<div class="carousel-caption d-none d-md-block">
+    					<h2>Do you have what it takes?</h2>
+    					<p>Learn guitar in easy way</p>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="./assets/image/Guitar2.jpg">
+					<div class="carousel-caption d-none d-md-block">
+    					<h2>Learn with new techniques!</h2>
+    					<p>Learn how to shred your guitar in 30 days!</p>
+  					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="./assets/image/Guitar3.jpg">
+					<div class="carousel-caption d-none d-md-block">
+    					<h2>Join our community!</h2>
+    					<p>Explore new world of playing!</p>
+  					</div>
+				</div>
+	
+				<a class="carousel-control-prev" href="#sampleCarousel" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#sampleCarousel" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+	</div>
+
+	<!-- Jumbotron -->
+	<div class="jumbotron">
+		<h1 class="display-4">Are you ready to shred!?</h1>
+		<p class="lead">Join our community or Enroll online!</p>
+		<p class="lead">Learn guitar in easier way. You can choose your program and learn to shred your guitar in 30 days!</p>
+		<p class="lead">
+			<a href="" class="btn btn-lg btn-primary">Enroll Now!</a>
+		</p>
+	</div>
+
+	<div class="row newsheading">
+		<div class="news-label"><h2>CHOOSE YOUR GUITAR LESSON</h2></div>
+	</div>
+
+	<div class="row news-article">
+
+
+		<div class="article col-lg-4 col-md-6 col-sm-12">
+			<div class="guitar-level"><label>Beginner</label></div>
+		</div>
+		<div class="article col-lg-4 col-md-6 col-sm-12">
+			<div class="guitar-level"><label>Intermediate</label></div>
+		</div>
+		<div class="article col-lg-4 col-md-12 col-sm-12">
+			<div class="guitar-level"><label>Advance</label></div>
+		</div>
+	</div>
+
+	<div class="row newsheading">
+		<div class="news-label"><h2>FEEDBACKS</h2></div>
+	</div>
+
+	<div class="row feedback-article">
+
+
+		<div class="article col-lg-4 col-md-6 col-sm-12">
+			<div class="guitar-level"><label>Feedback 1</label></div>
+		</div>
+		<div class="article col-lg-4 col-md-6 col-sm-12">
+			<div class="guitar-level"><label>Feedback 2</label></div>
+		</div>
+		<div class="article col-lg-4 col-md-12 col-sm-12">
+			<div class="guitar-level"><label>Feedback 3</label></div>
+		</div>
+	</div>
+
+
+	<div class="row bottom">
+		<div class="disclaimer col-lg-12 col-md-12 col-sm-12">Footer</div>
+	</div>
+
+		
+</body>
+</html>
