@@ -4,11 +4,13 @@
 
 }
 
-img[class*=d-block]{
+
+
+/*img[class*=d-block]{
 
 	height: 800px;
 }
-
+*/
 
 .bottom {
 	background-color: skyblue;
@@ -24,16 +26,27 @@ img[class*=d-block]{
 .navbar {
 	position: fixed;
 	width: 100%;
-	z-index: 1;
+	z-index: 4;
 
 }
+.navbar-brand {
+	width: 50%;
+}
 
-.content {
+/*#navbar-nav {
+
+	width: 70%;
+
+
+}
+*/
+
+/*.content {
 	background-color: white;
 	height: 700px;
 	margin: 50px auto;
 
-}
+}*/
 
 .menu {
 	margin: auto;
@@ -89,10 +102,23 @@ img[class*=d-block]{
 }
 
 .logo {
-	margin: 20px auto;
+	
 	width: 30%;
-	height: 30%;
-	border: 1px solid black;
+	height: 10%;
+	padding: 0px;
+
+	
+}
+
+.big-logo {
+	position: absolute;
+	
+	z-index: 3;
+	width: 80%;
+	height: 80%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
