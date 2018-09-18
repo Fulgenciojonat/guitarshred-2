@@ -1,6 +1,7 @@
 .carousel-item > img {
 	opacity: 0.75;
 	filter: alpha(opacity=75)
+	
 
 }
 
@@ -112,13 +113,19 @@
 
 .big-logo {
 	position: absolute;
+
 	
 	z-index: 3;
 	width: 80%;
-	height: 80%;
+/*	height: 120%;*/
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.content {
+	position: relative;
+	top: 25px;
 }
 
 
