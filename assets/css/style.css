@@ -1,6 +1,18 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .carousel-item > img {
 	opacity: 0.75;
 	filter: alpha(opacity=75)
+
 	
 
 }
@@ -14,24 +26,51 @@
 */
 
 .bottom {
-	background-color: skyblue;
-	height: 100px;
+	background-color: #2E2E2E;
+/*	height: 100px;*/
 	margin: auto;
 }
 
 .container {
-	background-color: grey;
+	width: 100%;
 }
 
 
 .navbar {
 	position: fixed;
 	width: 100%;
+	left: 0;
+	top: 0;
 	z-index: 4;
 
 }
 .navbar-brand {
 	width: 50%;
+}
+
+.nav-link {
+	font-family: 'Caveat Brush', cursive;
+	font-size: 1.15em;
+}
+
+.dropdown-item {
+	font-family: 'Caveat Brush', cursive;
+
+}
+
+.dropdown-item:hover{
+	background-color: grey;
+
+}
+
+.dropdown-item:active{
+	background-color: white;
+
+}
+
+
+.carousel-caption {
+	font-family: 'Permanent Marker', cursive;
 }
 
 /*#navbar-nav {
@@ -55,16 +94,16 @@
 
 .footer {
 	height: 90px;
-	background-color: skyblue;
+	
 }
 
-.news-article {
+/*.news-article {
 	min-height: 500px;
 	max-height: 700px;
 	margin: auto;
 
 
-}
+}*/
 
 .feedback-article {
 	min-height: 350px;
@@ -80,10 +119,10 @@
 	padding: 10px;
 }
 
-.disclaimer {
+/*.disclaimer {
 	border: 1px solid black;
 	height: 100%;
-}
+}*/
 
 .guitar-level {
 	background-color: grey;
@@ -127,6 +166,71 @@
 	position: relative;
 	top: 25px;
 }
+
+.lead {
+
+	color: #D0D0D0;
+}
+
+
+.jumbotron {
+	background-color: #2E2E2E;
+	margin-top: 0px;
+
+
+	
+}
+
+.display-4 {
+	color: #E7E7E7;
+	font-family: 'Patua One', cursive;
+}
+.join {
+	margin-top: 24px;
+
+}
+form {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #E5E5E5;
+		
+}
+
+/*.marketing {
+	background-color: #DBDBDB;
+	padding: 10px;
+}*/
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+  font-family: 'Patua One', cursive;
+
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  color: #2E2E2E;
+}
+
+.section {
+	color: #E7E7E7;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Caveat Brush', cursive;
+}
+
+.fab {
+
+	color: #E7E7E7;
+	font-size: 50px;
+	margin: 0 10px;
+
+}
+
 
 
 

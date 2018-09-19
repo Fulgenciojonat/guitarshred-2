@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+.jumbotron {
+
+
+/*	height: 100vh;
+	background-image: url("../image/Main2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+	background-color: transparent;
+}
+.background {
+	height: 100vh;
+	background-image: url("../image/Main2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.container {
+	width: 50%;
+	margin-top: 200px;
+	background: rgba(10, 10, 10, 0.75);
+	padding: 20px;
+	
+
+}
+
+
+.display-4 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.lead {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+@media only screen and (max-width: 450px) {
+	.display-4 {
+		font-size: 20px;
+	}
+	.lead {
+	font-size: 60%;
+}
+
+/*Tablets*/
+@media only screen and (min-width: 451px) and (max-width: 768px){
+	.display-4,  {
+		font-size: 50%;
+	}
+	.lead {
+		font-size: 100%;
+	}
+}
+
+
