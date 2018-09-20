@@ -33,6 +33,7 @@ body {
 
 .container {
 	width: 100%;
+
 }
 
 
@@ -69,28 +70,7 @@ body {
 }
 
 
-.carousel-caption {
-	font-family: 'Permanent Marker', cursive;
-}
 
-/*#navbar-nav {
-
-	width: 70%;
-
-
-}
-*/
-
-/*.content {
-	background-color: white;
-	height: 700px;
-	margin: 50px auto;
-
-}*/
-
-.menu {
-	margin: auto;
-}
 
 .footer {
 	height: 90px;
@@ -119,16 +99,7 @@ body {
 	padding: 10px;
 }
 
-/*.disclaimer {
-	border: 1px solid black;
-	height: 100%;
-}*/
 
-.guitar-level {
-	background-color: grey;
-	margin: 20px auto;
-	height: 80%;
-}
 
 .news-label {
 	font-size: 2em;
@@ -150,70 +121,21 @@ body {
 	
 }
 
-.big-logo {
-	position: absolute;
-
-	
-	z-index: 3;
-	width: 80%;
-/*	height: 120%;*/
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.content {
-	position: relative;
-	top: 25px;
-}
 
 .lead {
 
-	color: #D0D0D0;
+	color: #262626;
+	font-size: 16px;
 }
 
 
-.jumbotron {
-	background-color: #2E2E2E;
-	margin-top: 0px;
-	height: 85%;
 
-
-	
-}
 
 .display-4 {
 	color: #E7E7E7;
 	font-family: 'Patua One', cursive;
 }
 
-.join {
-	margin-top: 24px;
-
-}
-
-form {
-	margin-top: 20px;
-	padding: 20px;
-	background-color: #E5E5E5;
-		
-}
-
-
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-  font-family: 'Patua One', cursive;
-
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-  color: #2E2E2E;
-}
 
 .section {
 	color: #E7E7E7;
@@ -229,6 +151,66 @@ form {
 	margin: 0 10px;
 
 }
+.main-about {
+	top: 100px;
+	
+}
+
+
+.courses {
+	background-color: #E7E7E7;
+
+	
+}
+
+.courses-section {
+
+	padding: 70px;
+}
+
+.courses-heading {
+	padding-top: 30px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4em;
+}
+
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+.text-muted {
+	font-size: 18px;
+}
+
+.btn {
+	margin: 0 auto;
+	display: block;
+	width: 25%;
+	background-color: #C48F39;
+	border: none;
+	box-shadow: 5px 5px #E8E8E8;
+
+}
+.btn:hover {
+	background-color: #C48F39;
+	border: none;
+	box-shadow: 5px 10px #E8E8E8;
+}
+
 
 
 
