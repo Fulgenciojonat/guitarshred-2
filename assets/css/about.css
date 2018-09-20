@@ -9,24 +9,19 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	
-
 }
 
-.carousel-item > img {
-	opacity: 0.75;
-	filter: alpha(opacity=75)
-
-	
-
+.carousel {
+	width: 80%;
+	margin: auto;
 }
 
 
 
-/*img[class*=d-block]{
-
-	height: 800px;
+.carousel-item .active {
+	width: 80%;
+	margin: auto;
 }
-*/
 
 .bottom {
 	background-color: #2E2E2E;
@@ -36,7 +31,6 @@ body {
 
 .container {
 	width: 100%;
-
 
 }
 
@@ -234,7 +228,7 @@ body {
 	font-family: 'Patua One', cursive;
 }
 
-}
+
 
 
 

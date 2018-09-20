@@ -16,7 +16,7 @@
 	background-color: transparent;
 }
 .background {
-	height: 100vh;
+/*	height: 100vh;*/
 	background-image: url("../image/Main2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -57,6 +57,9 @@
 	}
 	.lead {
 		font-size: 100%;
+	}
+	.background {
+		background-size: 100%;
 	}
 }
 
