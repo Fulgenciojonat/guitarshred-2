@@ -2,13 +2,22 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+
 }
 
 
 body {
 	font-family: 'Roboto', sans-serif;
+	
 }
 
+
+
+
+.carousel-item .active {
+	width: 80%;
+	margin: auto;
+}
 
 .bottom {
 	background-color: #2E2E2E;
@@ -55,11 +64,20 @@ body {
 }
 
 
+
+
 .footer {
 	height: 90px;
 	
 }
 
+/*.news-article {
+	min-height: 500px;
+	max-height: 700px;
+	margin: auto;
+
+
+}*/
 
 .feedback-article {
 	min-height: 350px;
@@ -77,11 +95,24 @@ body {
 
 
 
+.news-label {
+	font-size: 2em;
+	text-align: center;
+	margin: auto;
+}
+
+.newsheading {
+	margin: auto;
+	padding: 10px;
+}
+
 .logo {
 	
 	width: 30%;
 	height: 10%;
-	padding: 0px;	
+	padding: 0px;
+
+	
 }
 
 
@@ -114,7 +145,6 @@ body {
 	margin: 0 10px;
 
 }
-
 .main-about {
 	top: 100px;
 	
@@ -122,7 +152,10 @@ body {
 
 
 .courses {
+
 	background-color: #E7E7E7;
+
+
 
 	
 }
@@ -130,42 +163,41 @@ body {
 .courses-section {
 
 	padding: 70px;
+	color: #262626;
+
+
 }
 
 .courses-heading {
 	padding-top: 30px;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 4em;
+	color: #262626;
 }
 
 
-.featurette-divider {
-  margin: 3rem 0; 
+
+.card-deck {
+	margin-top: 20px;
 }
 
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
-  font-family: 'Permanent Marker', cursive;
-  text-align: center;
+.card-img-top {
+	padding: 20px;
 }
 
-.text-muted {
-	font-size: 18px;
+
+.card-body {
+	text-align: center;
 }
 
-.btn {
-	background-color: #C48F39;
-	border: none;
-	box-shadow: 5px 5px #E8E8E8;
-	
+.card { 
 
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 font-family: 'Roboto', sans-serif;
 }
-.btn:hover {
-	background-color: #C48F39;
-	border: none;
-	box-shadow: 5px 10px #E8E8E8;
+
+.card-title {
+	font-family: 'Patua One', cursive;
 }
 
 
