@@ -229,6 +229,23 @@ body {
 }
 
 
+@media only screen and (max-width: 400px) {
+	.rounded-circle {
+		height: 30%;
+		width: 30%;
+	}
+}
+
+
+/*Tablets*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	.rounded-circle {
+		height: 50%;
+		width: 50%;	
+	}
+}
+
+
 
 
 

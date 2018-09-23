@@ -201,6 +201,19 @@ body {
 }
 
 
+@media only screen and (max-width: 400px) {
+	.card-img-top {
+		height: 20%;
+	}
+}
+
+
+/*Tablets*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	.card-img-top {
+		height: 30%;
+	}
+
 
 
 
