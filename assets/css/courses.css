@@ -131,7 +131,14 @@ body {
 
 
 .courses {
-	background-color: #E7E7E7;
+	/*background-color: #E7E7E7;*/
+	background-image: url(../image/courses-bg.jpg);
+	
+	background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+
 
 	
 }
@@ -158,6 +165,7 @@ body {
   letter-spacing: -.05rem;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
+  margin-top: 20px;
 }
 
 .text-muted {
@@ -179,10 +187,18 @@ body {
 
 @media only screen and (max-width: 400px) {
 	#programHeading {
-		font-size: 200%;
+		font-size: 250%;
+		text-align: center;
 	}
 	.featurette-image {
 		margin-top: 20px;
+	}
+	.lead {
+		font-size: 60%;
+	}
+	.courses-section {
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 
@@ -190,8 +206,22 @@ body {
 /*Tablets*/
 @media only screen and (min-width: 401px) and (max-width: 960px){
 	#programHeading {
-		font-size: 300%;	
+		font-size: 300%;
+		text-align: center;	
 	}
+	.lead {
+		font-size: 80%;
+	}
+	.courses-section {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+.bgo {
+	background-color: rgba(220, 220, 220, 0.75);
+	width: 100%;
+	
 }
 
 

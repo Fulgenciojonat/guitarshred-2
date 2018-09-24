@@ -68,20 +68,11 @@ body {
 }
 
 
-
-
 .footer {
 	height: 90px;
 	
 }
 
-/*.news-article {
-	min-height: 500px;
-	max-height: 700px;
-	margin: auto;
-
-
-}*/
 
 .feedback-article {
 	min-height: 350px;
@@ -153,19 +144,12 @@ body {
 .main-about {
 	top: 100px;
 	background-color: #E7E7E7;
-	
-
-	
+		
 }
 
-
-
 .contact-section, .location-section {
-
 	padding: 70px;
 	color: #262626;
-	
-
 
 }
 
@@ -214,6 +198,32 @@ body {
 	color: #262626;E7;
 	font-family: 'Patua One', cursive;
 }
+
+
+@media only screen and (max-width: 400px) {
+	.contact-section, .location-section {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.contact {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+
+/*Tablets*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	.contact-section, .location-section{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.contact {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
 
 
 

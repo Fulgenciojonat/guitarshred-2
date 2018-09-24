@@ -12,18 +12,7 @@ body {
 .carousel-item > img {
 	opacity: 0.75;
 	filter: alpha(opacity=75)
-
-	
-
 }
-
-
-
-/*img[class*=d-block]{
-
-	height: 800px;
-}
-*/
 
 .bottom {
 	background-color: #2E2E2E;
@@ -68,25 +57,9 @@ body {
 
 }
 
-
 .carousel-caption {
 	font-family: 'Permanent Marker', cursive;
 }
-
-/*#navbar-nav {
-
-	width: 70%;
-
-
-}
-*/
-
-/*.content {
-	background-color: white;
-	height: 700px;
-	margin: 50px auto;
-
-}*/
 
 .menu {
 	margin: auto;
@@ -97,20 +70,10 @@ body {
 	
 }
 
-/*.news-article {
-	min-height: 500px;
-	max-height: 700px;
-	margin: auto;
-
-
-}*/
 
 .feedback-article {
 	min-height: 350px;
-	
 	margin: auto;
-
-
 }
 
 .article {
@@ -118,11 +81,6 @@ body {
 	min-height: 100%;
 	padding: 10px;
 }
-
-/*.disclaimer {
-	border: 1px solid black;
-	height: 100%;
-}*/
 
 .guitar-level {
 	background-color: grey;
@@ -193,7 +151,7 @@ body {
 }
 
 form {
-	margin-top: 20px;
+	margin-top: 40px;
 	padding: 20px;
 	background-color: #E5E5E5;
 		
@@ -227,8 +185,68 @@ form {
 	color: #E7E7E7;
 	font-size: 50px;
 	margin: 0 10px;
+}
+
+
+#newbie {
+
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 50%;
+	background-image: url(../image/begginer.jpg);
+	background-size: cover;
+    background-position: center top;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#intermediate {
+
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 50%;
+	background-image: url(../image/intermediate.jpg);
+	background-size: cover;
+    background-position: center top;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#advanced {
+
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 50%;
+	background-image: url(../image/advanced.jpg);
+	background-size: cover;
+    background-position: center top;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.feature {
+	font-family: 'Permanent Marker', cursive !important; 
+}
+
+
+
+@media only screen and (max-width: 400px) {
+	form{
+		margin-top: 0px;
+	}
+
 
 }
+
 
 
 

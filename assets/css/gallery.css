@@ -168,7 +168,7 @@ body {
 
 }
 
-.courses-heading {
+.gallery-heading {
 	padding-top: 30px;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 4em;
@@ -183,6 +183,7 @@ body {
 
 .card-img-top {
 	padding: 20px;
+	padding-bottom: 5px;
 }
 
 
@@ -205,14 +206,46 @@ body {
 	.card-img-top {
 		height: 20%;
 	}
+
+	.card-text {
+		font-size: 80%;
+	}
+	.card-title {
+		font-size: 120%;
+	}
+	.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.courses-section {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.gallery-heading {
+		text-align: center;
+	}
+
+
 }
 
 
 /*Tablets*/
 @media only screen and (min-width: 401px) and (max-width: 960px){
 	.card-img-top {
-		height: 30%;
+		height: 50%;
 	}
+	.card-text {
+		font-size: 80%;
+	}
+	.card-title {
+		font-size: 120%;
+	}
+	.courses-section {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
 
 
 

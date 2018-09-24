@@ -132,6 +132,7 @@ body {
 .display-4 {
 	color: #E7E7E7;
 	font-family: 'Patua One', cursive;
+
 }
 
 
@@ -157,7 +158,11 @@ body {
 
 .courses {
 
-	background-color: #E7E7E7;
+	/*background-color: #E7E7E7;*/
+	background-image: url(../image/aboutbg.jpg);
+	background-size: cover;
+    background-position: center center;
+    margin: auto;
 
 
 
@@ -195,6 +200,7 @@ body {
   letter-spacing: -.05rem;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 .text-muted {
@@ -234,6 +240,33 @@ body {
 		height: 30%;
 		width: 30%;
 	}
+	.feedback-text {
+		padding: 0px;
+		font-size: 60%;
+	}
+
+	.carousel {
+		width: 100%;
+		margin: auto;
+	}
+
+	.carousel-item .active {
+		width: 100%;
+		margin: auto;
+	}
+
+	.lead {
+
+		color: #262626;
+		font-size: 60%;
+	}
+	.courses-section {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.courses-heading {
+		text-align: center;
+	}
 }
 
 
@@ -243,10 +276,73 @@ body {
 		height: 50%;
 		width: 50%;	
 	}
+	.courses-section {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.courses-heading {
+		text-align: center;
+	}
 }
 
 
+#feedback-1 {
 
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 50%;
+	background-image: url(../image/feedback-1.png);
+	background-size: cover;
+    background-position: center top;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#feedback-2 {
+
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 50%;
+	background-image: url(../image/feedback-2.png);
+	background-size: cover;
+    background-position: center top;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#feedback-3 {
+
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 50%;
+	background-image: url(../image/advanced.jpg);
+	background-size: cover;
+    background-position: center top;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.feedback-text {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+.bgo {
+	background-color: rgba(220, 220, 220, 0.75);
+	width: 100%;
+	
+}
 
 
 

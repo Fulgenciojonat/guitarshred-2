@@ -46,7 +46,7 @@
 				</button>
 				<!-- end of burger -->
 				<!-- Nav items -->
-				<div class="collapse navbar-collapse" id="navbar-nav">
+				<div class="collapse navbar-collapse text-center" id="navbar-nav">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
 							<a class="nav-link" href="index.html">Home</a>
@@ -82,130 +82,127 @@
 
 	<div class="container-fluid">
 		<div class="row main-about">
+
 			<div class="courses col-lg-12 col-md-12 col-sm-12">
-				
-				<div class="courses-section">
-					<h1 id="programHeading" class="courses-heading">Programs</h1>
-					<hr class="featurette-divider">
+				<div class="bgo container">
+					<div class="courses-section">
+						<h1 id="programHeading" class="courses-heading">Programs</h1>
+						<hr class="featurette-divider">
 
-					<div class="row featurette">
-						<div class="col-md-7">
+						<div class="row featurette">
+							<div class="col-md-7">
 
-							<h2 class="featurette-heading">Basic</h2>
-							<div class="courses-bg">
-								<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="lead">
-									<a href="" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#enroll">Enroll Now!</a>
-								</p>
+								<h2 class="featurette-heading">Basic</h2>
+
+								<div class="courses-bg">
+									<p class="lead">Learn the fundamentals of the Guitar. This lesson will give you the overview of the parts of the Guitar. This program includes how to re-string and set up your guitar for a starter.
+									</p>
+									<p class="lead">The Goal of this program is to make sure you will learn the chord chart and understand how to read a tablature.
+									</p>
+									<p class="lead">
+										<a href="" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#enroll">Enroll Now!</a>
+									</p>
+								</div>
+							</div>
+
+
+							<div class="modal fade" id="enroll" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Enroll Now</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<form>
+												<div class="form-group">
+													<label for="exampleInputEmail1">Name</label>
+													<input type="text" class="form-control" placeholder="Enter Name">
+												</div>
+												<div class="form-group">
+													<label for="exampleInputEmail1">Address</label>
+													<input type="text" class="form-control" placeholder="Enter Address">
+												</div>
+												<div class="form-group">
+													<label for="exampleInputEmail1">Contact Number</label>
+													<input type="text" class="form-control" placeholder="Enter Mobile number">
+												</div>
+												<div class="form-group">
+													<label for="exampleInputEmail1">Email address</label>
+													<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+													<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+												</div>
+												<div class="form-group">
+													<label for="exampleInputPassword1">Password</label>
+													<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+												</div>
+												<div class="form-group form-check">
+													<input type="checkbox" class="form-check-input" id="exampleCheck1">
+													<label class="form-check-label" for="exampleCheck1">Check me out</label>
+												</div>
+
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Enroll</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<img class="featurette-image img-fluid mx-auto" src="./assets/image/guitar-lesson.png" alt="Generic placeholder image" width="500" height="500">
 							</div>
 						</div>
 
+						<hr class="featurette-divider">
 
-						<div class="modal fade" id="enroll" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						  <div class="modal-dialog" role="document">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="exampleModalLabel">Enroll Now</h5>
-						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						          <span aria-hidden="true">&times;</span>
-						        </button>
-						      </div>
-						      <div class="modal-body">
-						        <form>
-					        		<div class="form-group">
-										<label for="exampleInputEmail1">Name</label>
-										<input type="text" class="form-control" placeholder="Enter Name">
-									</div>
-									<div class="form-group">
-										<label for="exampleInputEmail1">Address</label>
-										<input type="text" class="form-control" placeholder="Enter Address">
-									</div>
-									<div class="form-group">
-										<label for="exampleInputEmail1">Contact Number</label>
-										<input type="text" class="form-control" placeholder="Enter Mobile number">
-									</div>
-									<div class="form-group">
-										<label for="exampleInputEmail1">Email address</label>
-										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-										<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-									</div>
-									<div class="form-group">
-										<label for="exampleInputPassword1">Password</label>
-										<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-									</div>
-									<div class="form-group form-check">
-										<input type="checkbox" class="form-check-input" id="exampleCheck1">
-										<label class="form-check-label" for="exampleCheck1">Check me out</label>
-									</div>
-									
-								</form>
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Enroll</button>
-						      </div>
-						    </div>
-						  </div>
-						</div>
-						<div class="col-md-5">
-							<img class="featurette-image img-fluid mx-auto" src="./assets/image/guitar-lesson.png" alt="Generic placeholder image" width="500" height="500">
-						</div>
-					</div>
-
-					<hr class="featurette-divider">
-
-					<div class="row featurette">
-						<div class="col-md-7 order-md-2">
-							<h2 class="featurette-heading">Intermediate</h2>
-							<div class="courses-bg">
-								<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="lead">
-									<a href="" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#enroll">Enroll Now!</a>
-								</p>
+						<div class="row featurette">
+							<div class="col-md-7 order-md-2">
+								<h2 class="featurette-heading">Intermediate</h2>
+								<div class="courses-bg">
+									<p class="lead">Learn the intermediate level of your playing. Learn the theories and how to improvise a guitar solo.
+									</p>
+									<p class="lead">On this program you will be exposed to CAGE system and different guitar scales. The main goal for this program is to make sure you can improvised a guitar solo.
+									</p>
+									<p class="lead">
+										<a href="" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#enroll">Enroll Now!</a>
+									</p>
+								</div>
+							</div>
+							<div class="text-center col-md-5 order-md-1">
+								<img class="featurette-image img-fluid mx-auto" src="./assets/image/guitar-lesson2.png" alt="Generic placeholder image" width="300" height="300">
 							</div>
 						</div>
-						<div class="text-center col-md-5 order-md-1">
-							<img class="featurette-image img-fluid mx-auto" src="./assets/image/guitar-lesson2.png" alt="Generic placeholder image" width="300" height="300">
-						</div>
-					</div>
 
-					<hr class="featurette-divider">
+						<hr class="featurette-divider">
 
-					<div class="row featurette">
-						<div class="col-md-7">
-							<h2 class="featurette-heading">Advance</h2>
-							<div class="courses-bg">
-								<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<p class="lead">
-								<a href="" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#enroll">Enroll Now!</a>
-								</p>
+						<div class="row featurette">
+							<div class="col-md-7">
+								<h2 class="featurette-heading">Advance</h2>
+								<div class="courses-bg">
+									<p class="lead">Learn the advance way of playing your guitar. If you want to bring your playing to the next level this program will suit you.
+									</p>
+									<p class="lead">This program will give you different techiniques on picking and learn appregios notes.
+									</p>
+									<p class="lead">
+										<a href="" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#enroll">Enroll Now!</a>
+									</p>
+								</div>
+							</div>
+							<div class="text-center col-md-5">
+								<img class="featurette-image img-fluid mx-auto" src="./assets/image/guitar-lesson3.png" alt="Generic placeholder image" width="300" height="300">
 							</div>
 						</div>
-						<div class="text-center col-md-5">
-							<img class="featurette-image img-fluid mx-auto" src="./assets/image/guitar-lesson3.png" alt="Generic placeholder image" width="300" height="300">
-						</div>
+
+						<hr class="featurette-divider">
+
 					</div>
 
-					<hr class="featurette-divider">
 
 				</div>
-
-				
 			</div>
 		</div>
 	</div>
@@ -233,7 +230,8 @@
 						<a href=""><i class="fab fa-instagram"></i></a>
 					</div>
 					<div class="col-lg-12">
-						<small>Copyright 2018 | Jonathan Fulgencio</small>
+						<small>Disclaimer: No copyright infringement intended, we do not own the content/images nor we take credit for it, we are not selling the website or making profits from it and it is used only for educational purposes.</small><br>
+						<small>Copyright 2018 &copy; | Jonathan Fulgencio</small>
 
 					</div>
 
