@@ -70,24 +70,6 @@ body {
 	
 }
 
-
-.feedback-article {
-	min-height: 350px;
-	margin: auto;
-}
-
-.article {
-	border: 1px solid black;
-	min-height: 100%;
-	padding: 10px;
-}
-
-.guitar-level {
-	background-color: grey;
-	margin: 20px auto;
-	height: 80%;
-}
-
 .news-label {
 	font-size: 2em;
 	text-align: center;

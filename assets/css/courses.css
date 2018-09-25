@@ -60,23 +60,6 @@ body {
 	
 }
 
-
-.feedback-article {
-	min-height: 350px;
-	
-	margin: auto;
-
-
-}
-
-.article {
-	border: 1px solid black;
-	min-height: 100%;
-	padding: 10px;
-}
-
-
-
 .logo {
 	
 	width: 30%;
