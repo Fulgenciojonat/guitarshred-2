@@ -228,6 +228,9 @@ form {
 	form{
 		margin-top: 0px;
 	}
+	.display-4 {
+		font-size: 250%;
+	}
 
 
 }
